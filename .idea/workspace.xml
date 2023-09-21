@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="081c70de-68d0-4cdd-aec0-0fd436eb6138" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Paddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PongGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PongGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Score.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1695141896816</updated>
       <workItem from="1695141897851" duration="692000" />
-      <workItem from="1695228548801" duration="4772000" />
+      <workItem from="1695228548801" duration="5785000" />
     </task>
     <task id="LOCAL-00001" summary="add classes">
       <created>1695228975785</created>
@@ -70,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695294523111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create classes and methods">
+      <created>1695296810439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695296810439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,6 +84,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add classes" />
     <MESSAGE value="create classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="create classes" />
+    <MESSAGE value="create classes and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="create classes and methods" />
   </component>
 </project>
