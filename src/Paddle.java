@@ -24,10 +24,13 @@ public class Paddle extends Rectangle{
 
     }
     public void draw(Graphics g){
-        if(id == 1){
-            g.setColor(Color.blue);
-        } else if(id == 2){
-            g.setColor(Color.red);
+        switch (id) {
+            case 1 -> {
+                g.setColor(Color.blue);
+            }
+            case 2 -> {
+                g.setColor(Color.red);
+            }
         }
         g.fillRect(x, y, width, height);
     }
