@@ -1,6 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 import java.security.Key;
+import java.sql.SQLOutput;
 import java.util.*;
 import javax.swing.*;
 
@@ -103,6 +104,20 @@ public class GamePanel extends JPanel implements Runnable{
         }
         if(paddle2.y >= (GAME_HEIGHT - PADDLE_HEIGHT)){
             paddle2.y = GAME_HEIGHT - PADDLE_HEIGHT;
+        }
+
+        //points
+        if(ball.x <= 0){
+            score.player2++;
+            newPaddles();
+            newBall();
+            System.out.println("Score player2: "+score.player2);
+        }
+        if(ball.x >= GAME_WIDTH-BALL_DIAMETER){
+            score.player1++;
+            newPaddles();
+            newBall();
+            System.out.println("Score player1: " + score.player1);
         }
     }
     public void run(){
