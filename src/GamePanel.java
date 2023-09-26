@@ -121,23 +121,35 @@ public class GamePanel extends JPanel implements Runnable{
             System.out.println("Score player1: " + score.player1);
         }
     }
-    public void run(){
+    public void run() {
         long lastTime = System.nanoTime();
         double amountOfTicks = 60.0;
         double ns = 1000000000 / amountOfTicks;
         double delta = 0;
-        while (true){
+        boolean isRunning = true; // Flag to control loop
+
+        while (isRunning) {
             long now = System.nanoTime();
             delta += (now - lastTime) / ns;
             lastTime = now;
-            if(delta >= 1){
-                move();
-                checkCollision();
-                repaint();
+
+            if (delta >= 1) {
+                try {
+                    move();
+                    checkCollision();
+                    repaint();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    isRunning = false; // Exit loop in case of exception
+                }
                 delta--;
             }
+
+            // Some condition to exit the loop
+            // if (someCondition) isRunning = false;
         }
     }
+
     public class AL extends KeyAdapter{
         public void keyPressed(KeyEvent e){
             paddle1.keyPressed(e);
