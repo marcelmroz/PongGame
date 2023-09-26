@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="081c70de-68d0-4cdd-aec0-0fd436eb6138" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +55,7 @@
       <updated>1695141896816</updated>
       <workItem from="1695141897851" duration="692000" />
       <workItem from="1695228548801" duration="7305000" />
-      <workItem from="1695401499873" duration="3570000" />
+      <workItem from="1695401499873" duration="6069000" />
     </task>
     <task id="LOCAL-00001" summary="add classes">
       <created>1695228975785</created>
@@ -118,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695715993522</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="smoother paddles moves">
+      <created>1695717427282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695717427282</updated>
+    </task>
+    <task id="LOCAL-00011" summary="moving ball">
+      <created>1695719545036</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695719545036</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +150,8 @@
     <MESSAGE value="cleaner code" />
     <MESSAGE value="working paddles" />
     <MESSAGE value="paddles collision" />
-    <option name="LAST_COMMIT_MESSAGE" value="paddles collision" />
+    <MESSAGE value="smoother paddles moves" />
+    <MESSAGE value="moving ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="moving ball" />
   </component>
 </project>
