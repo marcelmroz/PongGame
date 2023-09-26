@@ -53,7 +53,7 @@
       <updated>1695141896816</updated>
       <workItem from="1695141897851" duration="692000" />
       <workItem from="1695228548801" duration="7305000" />
-      <workItem from="1695401499873" duration="2840000" />
+      <workItem from="1695401499873" duration="3570000" />
     </task>
     <task id="LOCAL-00001" summary="add classes">
       <created>1695228975785</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695498139675</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="paddles collision">
+      <created>1695715993522</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695715993522</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="paddles update" />
     <MESSAGE value="cleaner code" />
     <MESSAGE value="working paddles" />
-    <option name="LAST_COMMIT_MESSAGE" value="working paddles" />
+    <MESSAGE value="paddles collision" />
+    <option name="LAST_COMMIT_MESSAGE" value="paddles collision" />
   </component>
 </project>

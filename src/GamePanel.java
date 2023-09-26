@@ -53,7 +53,9 @@ public class GamePanel extends JPanel implements Runnable{
         paddle2.draw(g);
     }
     public void move(){
-
+        paddle1.move();
+        paddle2.move();
+        ball.move();
     }
     public void checkCollision(){
         //borders
